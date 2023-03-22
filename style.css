@@ -519,6 +519,7 @@ section .title::after{
 .contact .contact-content .left p{
     text-align: justify;
 }
+
 .contact .contact-content .left .icons{
     margin: 10px 0;
 }
@@ -530,9 +531,45 @@ section .title::after{
 .contact .contact-content .row .info{
     margin-left: 30px;
 }
+
+.contact .contact-content .left .info .head{
+    font-weight: 500;
+    color: #555;
+}
+.contact .contact-content .left .info .sub-title{
+    font-weight: 300;
+    color: #000000;
+}
+.contact .contact-content .left .info .sub-title a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;  
+}
+.contact .contact-content .left .info .sub-title a:hover{
+    color: crimson;
+    font-weight: 450;
+    text-shadow: 0 0 4px #ff4f4f; 
+}
+.contact .contact-content .left .info .sub-title span{
+    color: rgb(0, 0, 0);
+    text-decoration: none;  
+}
+.contact .contact-content .left .info .sub-title span:hover{
+    color: crimson;
+    font-weight: 450;
+    cursor: pointer;
+    text-shadow: 0 0 4px #ff4f4f;  
+}
 .contact .contact-content .row i{
     font-size: 25px;
     color: crimson;
+}
+.contact .contact-content .left .social-icons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+    padding: auto;
+    padding-right: 2rem;
 }
 /* .contact .contact-content .info .head{
     font-weight: 500;
@@ -602,9 +639,14 @@ section .title::after{
 /* footer section styling */
 footer{
     background: #111;
-    padding: 15px 23px;
+    padding: 20px 23px;
     color: #fff;
     text-align: center;
+}
+footer .social-icons a{
+    margin: 50px 0px;
+    padding-right: 3rem;
+    justify-content: center;
 }
 footer span a{
     color: crimson;
