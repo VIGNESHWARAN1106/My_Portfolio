@@ -637,17 +637,14 @@ section .title::after{
   background: none;
 } */
 /* footer section styling */
+
 footer{
     background: #111;
     padding: 20px 23px;
     color: #fff;
     text-align: center;
 }
-footer .social-icons a{
-    margin: 50px 0px;
-    padding-right: 3rem;
-    justify-content: center;
-}
+
 footer span a{
     color: crimson;
     text-decoration: none;
